@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+    int c,e;
+    scanf("%d",&c);
+
+    e= square(c);
+
+    printf("%d\n",e);
+
+    return 0;
+
+}
+
+int square(int a)
+{
+    int s=(a*a);
+
+    return s;
+
+}
+
+
