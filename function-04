@@ -1,0 +1,27 @@
+#include<stdio.h>
+int swap(int *a, int *b)
+{
+    int c;
+
+    c=*a;
+    *a=*b;
+    *b=c;
+}
+
+void main()
+{
+    int e,f;
+
+    printf("a = ");
+    scanf("%d",&e);
+
+    printf("b = ");
+    scanf("%d",&f);
+
+    swap(&e,&f);
+
+    printf("a = %d\n",e);
+    printf("b = %d\n",f);
+
+    return 0;
+}
