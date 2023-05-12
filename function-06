@@ -1,0 +1,25 @@
+#include<stdio.h>
+
+void main()
+{
+    int a;
+    scanf("%d",&a);
+    oddeven(a);
+
+    return 0;
+
+}
+
+int oddeven(int b)
+{
+    if(b%2==0)
+    {
+        printf("Even\n");
+    }
+    else
+    {
+
+        printf("Odd\n");
+    }
+}
+
