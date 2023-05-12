@@ -1,0 +1,31 @@
+#include<stdio.h>
+
+void main()
+{
+    int a,b;
+
+    printf("Lower range: ");
+    scanf("%d",&a);
+
+    printf("Upper range: ");
+    scanf("%d",&b);
+
+    sum(a,b);
+
+    return 0;
+
+}
+
+int sum(int c, int d)
+{
+    int sum=0;
+
+    for(int i=c; i<=d; i++)
+    {
+        sum=sum+i;
+    }
+    printf("%d\n",sum);
+}
+
+
+
