@@ -1,0 +1,27 @@
+#include<stdio.h>
+
+void main()
+{
+    int a,b;
+
+    printf("Lower range: ");
+    scanf("%d",&a);
+
+    printf("Upper range: ");
+    scanf("%d",&b);
+
+    uplow(a,b);
+
+    return 0;
+
+}
+
+int uplow(int c, int d)
+{
+    for(int i=c; i<d; i++)
+    {
+        printf("%d\n",i);
+    }
+}
+
+
